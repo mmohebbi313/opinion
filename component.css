@@ -1,0 +1,132 @@
+@font-face {
+    font-family: font1;
+    src: url(fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+.body{
+    background-color: hsl(216, 12%, 8%);
+}
+.div{
+    background-color: hsl(213, 19%, 18%);
+    width: 360px;
+    height: 390px;
+    margin-top: 12%;
+    margin-left: 40%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.star{
+    border: none;
+    margin: 14px;
+}
+.divstar{
+    width: 44px;
+    height: 44px;
+    background-color: hsl(217, 17%, 15%);
+    border-radius: 50%;
+    margin: 30px;
+    overflow: hidden;
+} 
+.h1{
+    font-size: 30px;
+    margin-left: 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: font2;
+}
+.p{
+    font-family: font2;
+    color: hsl(217, 12%, 63%);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sircle{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: hsl(217, 17%, 15%);
+    float: left;   
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    
+}
+.sircle1{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: hsl(217, 17%, 15%);
+    float: left;   
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    
+}
+/* .sircle p{
+    color: hsl(217, 12%, 63%);;
+    margin-left: 17px;
+    margin-top: 12px;
+    font-family: font2;
+} */
+/* .sircle1 p{
+    color: hsl(217, 12%, 63%);;
+    margin-left: 17px;
+    margin-top: 12px;
+    font-family: font2;
+} */
+.but{
+    width: 300px;
+    height: 39px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    font-family: font2;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: hsl(25, 97%, 53%);
+}
+.sircle:hover{
+    background-color: hsl(25, 97%, 53%);
+    transition: all 0.5s;
+}
+.sircle1:hover{
+    background-color: hsl(25, 97%, 53%);
+    transition: all 0.5s;
+}
+.sircle:active{
+    background-color: white;
+}
+.sircle1:active{
+    background-color: white;
+}
+.but:hover{
+    background-color: white;
+    transition: all 0.5s;
+}
+.sircleOut{
+    background-color: white;
+}
+.epp{
+    color: black;
+}
+.sirclep{
+    color: hsl(217, 12%, 63%);
+    margin-left: 17px;
+    margin-top: 12px;
+    font-family: font2;
+}
+.sirclepp{
+    color: black;
+}
+.sircle1p{
+    color: hsl(217, 12%, 63%);;
+    margin-left: 17px;
+    margin-top: 12px;
+    font-family: font2; 
+}
+.sircle1pp{
+    color: black;
+}

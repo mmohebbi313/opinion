@@ -1,0 +1,48 @@
+@font-face {
+    font-family: font2;
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+.body{
+    background-color: hsl(216, 12%, 8%);
+}
+.div{
+    background-color: hsl(213, 19%, 18%);
+    width: 360px;
+    height: 395px;
+    margin-top: 12%;
+    margin-left: 40%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.poz{
+    border: none;
+    margin-left: 25%;
+    margin-top: 12%;
+}
+.thank{
+    width: 180px;
+    height: 26px;
+    background-color: hsl(217, 17%, 15%);
+    margin-left: 25%;
+    border-radius: 20px;
+    margin-top: -30px;
+}
+.thank p{
+    padding-left: 17px;
+    padding-top: 4px;
+    color: hsl(25, 97%, 53%);
+    font-family: font2;
+    font-size: 14px;
+}
+.h1{
+    font-family: font2;
+    margin-left: 28%;
+    color: white;
+}
+.pp{
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+    font-family: font2;
+}

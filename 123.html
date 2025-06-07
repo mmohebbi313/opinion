@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="123.css" rel="stylesheet" type="text/css" >
+<body class="body">
+    <!-- <p id="19"></p> -->
+    
+     <div class="div">
+        <iframe src="illustration-thank-you.svg" class="poz"></iframe>
+        <div class="thank" id="thank"></div>
+        <br>
+        <h1 class="h1">Thank you!</h1>
+        <p class="pp">We appreciate you taking the time to give a rating. <br> If you ever need more support, don't hesitate to get in touch!
+        </p>
+        
+
+
+
+
+
+
+     </div>
+
+    
+</body>
+
+<script>
+
+var p = document.getElementById("19")
+
+var d = localStorage.getItem("salam")
+
+var c = document.getElementById("thank")
+
+c.innerHTML = ` <p> You selected ${d} out of 5 </p> `
+
+
+
+    
+
+
+</script>
+</html>

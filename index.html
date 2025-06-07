@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="component.css" rel="stylesheet" type="text/css" >
+
+<body class="body">
+<div class="div">
+<div class="divstar">
+    <iframe src="icon-star.svg" class="star"></iframe>
+</div>
+
+<h1 class="h1">How did we do?</h1>
+<p class="p">Pleas let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+<div class="sircle" onclick="q1()" ><p class="sirclep" onclick="q1()">1</p></div>
+<div class="sircle1" onclick="q2()" ><p class="sircle1p" onclick="q2()">2</p></div>
+<div class="sircle1" onclick="q3()" ><p class="sircle1p" onclick="q3()">3</p></div>
+<div class="sircle1" onclick="q4()" ><p class="sircle1p" onclick="q4()">4</p></div>
+<div class="sircle1" onclick="q5()" ><p class="sircle1p" onclick="q5()">5</p></div>
+
+
+<button class="but" onclick="ww()" id="button">SUBMIT</button>
+
+
+
+
+
+
+
+</div>
+    
+
+<script>
+
+
+
+const circle = document.querySelector(".sircle")
+const number = circle.querySelector("p")
+const orginal = number.style.color
+const button = document.getElementById("button")
+
+
+button.addEventListener("click", ()=>{
+    window.location.href = "123.html"
+})
+
+circle.addEventListener("click", ()=>{
+    circle.classList.toggle("sircleOut");  
+    number.classList.toggle("sirclepp")
+})
+
+
+
+circle.addEventListener("mouseover", ()=>{
+    number.style.color = "black"
+})
+
+circle.addEventListener("mouseout", ()=>{
+    number.style.color = orginal
+})
+
+const circle2 = document.querySelectorAll(".sircle1")
+
+circle2.forEach( circle2 =>{
+    const number2 = circle2.querySelector("p")
+
+    circle2.addEventListener("mouseover", ()=>{
+        number2.style.color = "black"
+    } )
+
+    circle2.addEventListener("mouseout", ()=>{
+        number2.style.color = orginal
+    })
+    circle2.addEventListener("click", ()=>{
+    circle2.classList.toggle("sircleOut");  
+    number2.classList.toggle("sircle1pp")
+})
+ 
+})
+
+
+  var s = 1
+function q1(){
+   s = 1
+   localStorage.setItem("salam", s)
+}
+function q2(){
+    s = 2
+    localStorage.setItem("salam", s)
+}
+function q3(){
+    s = 3
+    localStorage.setItem("salam", s)
+}
+function q4(){
+    s = 4
+    localStorage.setItem("salam", s)
+}
+function q5(){
+    s = 5
+    localStorage.setItem("salam", s)
+}
+
+
+
+
+button.addEventListener("click", ()=>{
+    window.location.href = "123.html"
+
+})
+
+// function ww(){
+//     document.write(s)
+// }
+
+</script>
+
+</body>
+</html>
